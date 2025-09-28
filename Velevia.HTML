@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduFarm.id - Edukasi Pertanian</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-green-50 text-gray-800">
+  <!-- Navbar -->
+  <header class="bg-green-600 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">🌱 EduFarm.id</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#home" class="hover:underline">Home</a></li>
+          <li><a href="#tips" class="hover:underline">Tips</a></li>
+          <li><a href="#hama" class="hover:underline">Hama</a></li>
+          <li><a href="#kalender" class="hover:underline">Kalender</a></li>
+          <li><a href="#kontak" class="hover:underline">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="text-center py-16 bg-gradient-to-r from-green-500 to-green-700 text-white">
+    <h2 class="text-4xl font-bold mb-4">Belajar Tani Mudah & Gratis</h2>
+    <p class="text-lg mb-6">Tips pertanian praktis untuk petani, pelajar, dan pecinta tanaman.</p>
+    <a href="#tips" class="bg-white text-green-700 px-6 py-3 rounded-lg font-semibold shadow hover:bg-gray-100">Mulai Belajar</a>
+  </section>
+
+  <!-- Tips Harian -->
+  <section id="tips" class="container mx-auto py-12 px-4">
+    <h3 class="text-2xl font-bold mb-6 text-green-700">🌾 Tips Harian</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-4 rounded-xl shadow hover:shadow-lg">
+        <h4 class="font-semibold mb-2">Cara Menanam Cabai</h4>
+        <p class="text-sm">Pilih bibit unggul, gunakan polybag, dan pastikan cukup sinar matahari.</p>
+      </div>
+      <div class="bg-white p-4 rounded-xl shadow hover:shadow-lg">
+        <h4 class="font-semibold mb-2">Tips Panen Padi</h4>
+        <p class="text-sm">Panen saat 90% bulir menguning agar hasil lebih maksimal.</p>
+      </div>
+      <div class="bg-white p-4 rounded-xl shadow hover:shadow-lg">
+        <h4 class="font-semibold mb-2">Perawatan Tanaman Tomat</h4>
+        <p class="text-sm">Siram rutin pagi-sore, gunakan pupuk organik cair untuk hasil terbaik.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hama & Penyakit -->
+  <section id="hama" class="bg-green-100 py-12 px-4">
+    <div class="container mx-auto">
+      <h3 class="text-2xl font-bold mb-6 text-green-700">🐛 Hama & Solusi</h3>
+      <ul class="space-y-4">
+        <li><strong>Wereng:</strong> Gunakan perangkap lampu & semprot neem oil.</li>
+        <li><strong>Ulat Grayak:</strong> Lakukan sanitasi lahan & gunakan musuh alami (Trichogramma).</li>
+        <li><strong>Jamur Daun:</strong> Gunakan fungisida organik berbahan bawang putih.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Kalender Tanam -->
+  <section id="kalender" class="container mx-auto py-12 px-4">
+    <h3 class="text-2xl font-bold mb-6 text-green-700">📅 Kalender Tanam</h3>
+    <table class="w-full border border-collapse">
+      <thead class="bg-green-600 text-white">
+        <tr>
+          <th class="border p-2">Tanaman</th>
+          <th class="border p-2">Waktu Tanam</th>
+          <th class="border p-2">Waktu Panen</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="bg-white">
+          <td class="border p-2">Padi</td>
+          <td class="border p-2">Oktober - Desember</td>
+          <td class="border p-2">3-4 Bulan</td>
+        </tr>
+        <tr class="bg-gray-50">
+          <td class="border p-2">Jagung</td>
+          <td class="border p-2">Januari - Maret</td>
+          <td class="border p-2">2-3 Bulan</td>
+        </tr>
+        <tr class="bg-white">
+          <td class="border p-2">Cabai</td>
+          <td class="border p-2">April - Juni</td>
+          <td class="border p-2">3 Bulan</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="bg-green-600 text-white py-12 text-center">
+    <h3 class="text-2xl font-bold mb-4">📩 Kontak</h3>
+    <p>Bergabunglah dengan komunitas tani di <a href="https://t.me/" class="underline">Telegram EduFarm</a>.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-800 text-white text-center p-4">
+    <p>&copy; 2025 EduFarm.id - Edukasi Pertanian Gratis</p>
+  </footer>
+</body>
+</html>
